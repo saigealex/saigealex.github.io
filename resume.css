@@ -73,27 +73,29 @@ position:absolute;
 height:60px;
 margin-bottom:5%;
 margin:0 auto;
-display: inline-block;
+ text-align: center;
 }
 
 nav ul {
 height:80px;
 font-family: 'La Belle Aurore', cursive;
 margin:0 auto;
+
 }
 nav ul li {
 display: inline;
 font-size:30px;
 margin:0 auto;
+ 
 
 }
 nav ul li a {
-display: inline;
 width:100px;
 margin:21px;
 color: #b76e79;
 text-decoration:none;
 margin:20px;
+  display: inline-block;
 }
 nav ul li a:hover {
 color:#FF9999;
