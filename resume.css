@@ -207,3 +207,39 @@ padding:0px;
 .large {
 font-size:25px;
 }
+
+/* Structure */
+#wrapper {
+width: 96%;
+max-width: 920px;
+margin: auto;
+padding: 2%;
+}
+#main {
+width: 60%;
+margin-right: 5%;
+float: left;
+}
+/* Media Queries */
+@media screen and (max-width: 480px) {
+#skipTo {
+display: block;
+}
+header nav, #main, aside {
+float: left;
+clear: left;
+margin: 0 0 10px;
+width: 100%;
+}
+header nav li {
+margin: 0;
+background: #efefef;
+display: block;
+margin-bottom: 3px;
+}
+header nav a {
+display: block;
+padding: 10px;
+text-align: center;
+}
+}
