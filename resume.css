@@ -29,7 +29,7 @@ padding-top:100px;
 
 #header1 {
 width:100%;
-background-image:url(/marblebackground.jpg);
+background-image:url(marblebackground.jpg);
 height:1000px;
 margin-bottom:200px;
 padding:0px;
@@ -70,9 +70,9 @@ position:absolute;
 top:600px;
 left:0px;
 height:60px;
-float:right;
 margin-bottom:5%;
 margin:0 auto;
+display: inline-block;
 }
 
 nav ul {
@@ -81,18 +81,18 @@ font-family: 'La Belle Aurore', cursive;
 margin:0 auto;
 }
 nav ul li {
-display: inline-block;
+display: inline;
 font-size:40px;
 margin:0 auto;
 
 }
 nav ul li a {
-display: inline-block;
+display: inline;
 width:100px;
 margin:21px;
 color: #b76e79;
 text-decoration:none;
-margins:20px;
+margin:20px;
 }
 nav ul li a:hover {
 color:#FF9999;
@@ -160,8 +160,7 @@ a:hover {
 color:#230AC3;
 }
 
-.margin {
-}
+
 .info {
 font-size:50px;
 margin:30px;
@@ -189,9 +188,6 @@ a:hover {
 
 color:#ffb5b6;
 
-}
-
-.margin {
 }
 .info {
 font-size:35px;
