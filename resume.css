@@ -85,7 +85,7 @@ margin:0 auto;
 }
 nav ul li {
 display: inline;
-font-size:40px;
+font-size:30px;
 margin:0 auto;
 
 }
@@ -99,7 +99,7 @@ margin:20px;
 }
 nav ul li a:hover {
 color:#FF9999;
-font-size:40px;
+font-size:30px;
 
 }
 h5 {
@@ -110,7 +110,7 @@ font-size:35px;
 h1 {
 color:#FFB5B6;
 font-family: 'La Belle Aurore', cursive;
-font-size:85px;
+font-size:60px;
 margin-bottom:0px;
 padding-bottom:0px;
 text-decoration:none;
