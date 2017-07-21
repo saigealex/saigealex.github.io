@@ -17,7 +17,7 @@ line-height:30px;
 }
 
 .name {
-font-size: 170px;
+font-size: 100px;
 color:#b76e79;
 font-family: 'Raleway', sans-serif;
 text-align:center;
@@ -70,8 +70,6 @@ margin:0 auto;
 nav{
 width:100%;
 position:absolute;
-top:600px;
-left:0px;
 height:60px;
 margin-bottom:5%;
 margin:0 auto;
