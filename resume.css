@@ -147,7 +147,7 @@ font-family: 'Raleway', sans-serif;
 
 
 .bigstyle {
-font-size:90px;
+font-size:65px;
 color:#FFF;
 background-color:#000;
 padding-left:200px;
@@ -208,18 +208,7 @@ padding:0px;
 font-size:25px;
 }
 
-/* Structure */
-#wrapper {
-width: 96%;
-max-width: 920px;
-margin: auto;
-padding: 2%;
-}
-#main {
-width: 60%;
-margin-right: 5%;
-float: left;
-}
+
 /* Media Queries */
 @media screen and (max-width: 480px) {
 #skipTo {
