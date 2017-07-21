@@ -18,7 +18,7 @@ line-height:30px;
 
 .name {
 font-size: 170px;
-color:#FFFFFF;
+color:#b76e79;
 font-family: 'Raleway', sans-serif;
 text-align:center;
 margin:0 auto;
@@ -81,22 +81,22 @@ font-family: 'La Belle Aurore', cursive;
 margin:0 auto;
 }
 nav ul li {
-display:inline;
-font-size:60px;
+display: inline-block;
+font-size:40px;
 margin:0 auto;
 
 }
 nav ul li a {
-display:inline;
+display: inline-block;
 width:100px;
 margin:21px;
-color:#FFFFFF;
+color#b76e79;
 text-decoration:none;
 margins:20px;
 }
 nav ul li a:hover {
-color:#2C02D9;
-font-size:60px;
+color:#FF9999;
+font-size:40px;
 
 }
 h5 {
