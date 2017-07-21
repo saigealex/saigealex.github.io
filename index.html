@@ -1,203 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Saige A. Sharp</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resume.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
-</head>
-
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
 <body>
-    <div id="header1">
-        <div class="name">
-            Saige Alex
-        </div>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Jane & John</h1>
+    <h2>Are getting married</h2>
+    <h2><b>17.07.2017</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Jane & John</b></h1>
+    <img class="w3-round w3-grayscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
+    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Wedding Ceremony - 2:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>Some place, an address</p>
+        <p>Some where, some address</p>
+      </div>
     </div>
+  </div>
+</div>
 
-    <nav>
-        <ul>
-            <li><a href="#page1">Background </a></li>
-            <li><a href="#Page3">Experience </a></li>
-            <li><a href="#Page4">Reviews </a></li>
-            <li><a href="#Page5">Contact Me </a></li>
-        </ul>
-    </nav>
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="w3-large">Kindly Respond By January, 2017</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
 
-    <div class="container">
-        <div id="page1">
-            <div class="box2">
-                <h1>Background</h1>
-                <h2>Communications Theory and Digital Platforms
-                  
-
-                <p>
-                   My Communications degree at UConn provided me a strong foundation in communications theory -- understanding how and why people communicate the way they do. 
-                    As our mode of communication may change thanks to the Mark Zuckerburgs of the world, why we communicate doesn't. Our emotions still drive our decisions. To complement that, I've immersed myself in digital
-                 /social norms. Why do we share this on Instagram but would never share that on Snapchat. Each platform is its own community that brands need to respect. I've happened to focus on communities and platform functionality to best serve my brands. 
-                </p>
-
-
-                <div class="box2">
-                    <h3>Best Classes</h3>
-
-                    <h2>Global Marketing Strategy & Intro to Marketing:</h2>
-                    <p>These classes taught me about the principals of marketing. You know the <strong> 4 p's, 3 c's and the rest of the alphabet.</strong>                        I learned the importance of the consumer and the power of branding. These classes sparked my interest
-                        in the discipline.
-                    </p>
-                    <hr>
-
-                    <h2>Computer Mediated Communication & Persuasion:</h2>
-                    <p>
-                        The fact that you're viewing my resume on a website is proof that the digital platform is <i>kind of</i>                        a <strong>big deal</strong>. So, I thought it would be pretty important to understand how people
-                        communicate in a digital world.
-                    </p>
-                    <hr>
-                    <h2>Advertising and Public Relations(Writing):</h2>
-                    <p> A few old favorites here. These 3 classes gave me a snapshot into the world of Advertising and Public
-                        Relations. In both of these classes I completed group assignments that mimicked projects done in
-                        agencies.
-                    </p>
-                    <hr>
-
-                    <div class="press">
-                        <a href="#page2">Next>></a>
-                    </div>
-                </div>
-            </div>
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">CAN YOU COME?</h1>
+      <p>We really hope you can make it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, John & Jane</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
         </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
-    <div id="page2" class="fullwidth">
-        <div class="bigstyle">
-            Thats nice... But what have you <a href="#Page3">done</a>?
-        </div>
-    </div>
-
-    <div id="Page3" class="container">
-        <div class="topper">
-            <h1>Work Experience</h1>
-            <p>
-                <div class="box1">Sooooo I've done a few things... In every position I've held, I've made sure to keep my marketing hat on.
-                    Whether it was Dunkin Donuts or an ad agency, keeping a <strong>consumer</strong> focus while <strong>maintaining the brand voice </strong>                    is my goal. Look at the companies below to learn more about my time there.
-            </p>
-            </div>
-        </div>
-        <div class="container linespace">
-
-            <h2>Aetna |Consumer Health and Services Leadership Develoment Program </h2>
-            <p>
-                The basic premise of the program was to throw us into projects at
-                <stong>full-speed</strong> and see how we managed. So, I had the pleasure of <b>leading</b> up a few projects for
-                    Aetna. </p>
-            <br>
-            <p>
-                In my traditional marketing rotation, I translated our overarching campaign into our event assets and activations.
-                With such a small team, I had to use everything I knew to figure it out. As for what I didn't know, I had
-                to lean on my <strong>relationships</strong> to help fill in the gaps. </p>
-            <br>
-            <p> 
-                My second rotation solidified my interest in the digital landscape. While working for the digital team, I married
-                my strong communications theory background with my passion for digital and honed in on what our members actually
-                wanted. I did research on what apps aligned with our goals/vision for the company. In addition, I developed
-                a strategy to improve our user experiences on our digital assets. </p>
-            <br>
-            <p>
-                All in all, the rotational progam pushed me, developed me, and I'm ready to take on my next challenge.
-            </p>
-            <hr>
-
-            <h2>Cronin and Company | Account Services Intern </h2>
-            <p>
-                My role as an intern is hard to put in a few bullet points because it encompassed so much. Here’s my best attempt:
-                <br> As an intern I provide general support for the agency’s largest account, Amica Insurance, and assisted
-                account team with projects for television, online and development of multicultural marketing initiative.
-                In addition, I conducted <strong>research</strong> on Client competitors and <strong>consumer behavior</strong>                to gain insights on trends and <strong>advertising and positioning strategies </strong>for brands such as
-                Montefiore Medical Center and Connecticut Children’s Hospital. Also, I identify <strong>social media trends</strong>                amongst competitors and present findings to account service team.
-            </p>
-            <hr>
-
-
-            <h2>Young World Foundation | Promotions Director </h2>
-            <p> 
-                Young World Foundation is a non-profit organization based in Kansas City, MO. Its focus is cultivating global
-                community leaders. It takes students with potential and leads them to resources that will develop them into
-                responsible global citizens. Through travel and community service, its goal is to build well rounded individuals.
-            </p>
-
-            <p> My involvement included <strong>designing promotional pieces</strong> to increase overall exposure to target
-                audiences. I also <strong>created, designed and promoted social media pages</strong> to communicate missions,
-                goals and accomplishments with target audience. Finally, I developed <strong>marketing strategies</strong>                to expand the program.
-            </p>
-            <hr>
-        </div>
-
-            <div class="press class2">
-                <a href="#Page4">Next>></a>
-            </div>
-        <div>
-        </div>
-    </div>
-
-    <div id="Page4" class="container">
-
-        <h1>Reviews</h1>
-        <h2> Kristi Rodriguez || Senior Director - Consumer Business Marketing, Aetna </h2>
-        <p>
-            In this short period of time Saige embraced her role with professionalism, a sense of urgency and business focus.
-            Saige is very outgoing and is truly an asset to our team! 
-        </p>
-
-        <h2>Brian McKinney | Project Manager - Brand Voice, Aetna</h2>
-        <p> 
-            Her willingness to adapt to changing circumstances, follow direction, suggest improvements and remain cool under
-            pressure made it a pleasure to work with her.
-        </p>
-        <hr>
-
-        <h2>Susan Gunter | Project Manager - Consumer Business Marketing, Aetna</h2>
-        <p>
-            Saige has been an absolute pleasure to work with. She is very mature for her age and I like that she isn’t afraid
-            to be proactive when answers aren’t always as apparent or if she feels something isn’t going right. She also
-            seems to stay calm under pressure and in a place where we are living with constant ambiguity this is extremely
-            important.
-        </p>
-        <hr>
-
-        <h2>Michelle Szafranski | Account Executive, Cronin and Company</h2>
-        <p>
-            Saige is an extremely motivated, ambitious person that has the capacity to take on any challenge that is thrown her
-            way. She is a natural leader and is forward-thinking at a level that most aren’t. She embraces learning and growing,
-            which is one of the many things that it sure to help pave her path to a successful future. 
-        </p>
-        <hr>
-        <div class="press class2">
-            <a href="#Page5">Like what you saw?</a>
-        </div>
-    </div>
-
-    <div id="Page5">
-        <div class="container">
-            <h1> Contact Me</h1>
-
-            <h2>Well, it was nice to meet you too! If you want to continue this conversation, reach out to me soon. </h2>
-            <p class="large">
-                Email | ssharp93@live.com<br> Phone | 860.992.9963 <br>
-                <p class="large">
-                    Address | 9 Cyrus Lane Bloomfield, CT 06002
-                </p>
-        </div>
-        <div class="drop container">
-            <h2>So good you want to see it again?</h2>
-            <div class="press class2">
-                <a href="#header1">Back to Top></a>
-            </div>
-        </div>
-    </div>
 </body>
-
 </html>
