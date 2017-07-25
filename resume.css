@@ -67,77 +67,10 @@ width:1200px;
 margin:0 auto;
 }
 
-nav{
-width:100%;
-position:absolute;
-height:60px;
-margin-bottom:5%;
-margin:0 auto;
- text-align: center;
-}
-
-nav ul {
-height:80px;
-font-family: 'La Belle Aurore', cursive;
-margin:0 auto;
-
-}
-nav ul li {
-display: inline;
-font-size:30px;
-margin:0 auto;
- 
-
-}
-nav ul li a {
-width:100px;
-margin:21px;
-color: #b76e79;
-text-decoration:none;
-margin:20px;
-  display: inline-block;
-}
-nav ul li a:hover {
-color:#FF9999;
-font-size:30px;
-
-}
-h5 {
-color:#F9B217;
-font-family: 'La Belle Aurore', cursive;
-font-size:35px;
-}
-h1 {
-color:#FFB5B6;
-font-family: 'La Belle Aurore', cursive;
-font-size:60px;
-margin-bottom:0px;
-padding-bottom:0px;
-text-decoration:none;
-}
-p {font-family: 'Raleway', sans-serif;
-margin:0px;
-padding:0px;
-font-size:24px;
-
-}
 
 
-h2 {
-font-size:38px;
-font-family: 'Raleway', sans-serif;
-padding:0px;
-margin-bottom:5px;
-}
-h3 {
-font-size:38px;
-color:#ffb5b6;
-font-family: 'Raleway', sans-serif;
-}
-h4{font-size:45px;
-font-family: 'Raleway', sans-serif;
-margin:0px;
-}
+
+
 
 .box2 {
 margin-top:0px;
@@ -158,10 +91,6 @@ padding-left:350px;
 }
 
 
-a:hover {
-
-color:#230AC3;
-}
 
 
 .info {
@@ -187,11 +116,7 @@ font-size:36px;
 
  
 
-a:hover {
 
-color:#ffb5b6;
-
-}
 .info {
 font-size:35px;
 margin:24px;
@@ -209,26 +134,3 @@ font-size:25px;
 }
 
 
-/* Media Queries */
-@media screen and (max-width: 480px) {
-#skipTo {
-display: block;
-}
-header nav, #main, aside {
-float: left;
-clear: left;
-margin: 0 0 10px;
-width: 100%;
-}
-header nav li {
-margin: 0;
-background: #efefef;
-display: block;
-margin-bottom: 3px;
-}
-header nav a {
-display: block;
-padding: 10px;
-text-align: center;
-}
-}
